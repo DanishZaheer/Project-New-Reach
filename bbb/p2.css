@@ -1,0 +1,805 @@
+*
+{
+margin: 0;
+padding: 0;
+/* overflow: hidden; */
+}
+
+nav
+{
+height: 100px;
+width: 100%;
+border: 1px solid white;
+position: relative;
+}
+nav img
+{
+height:200px;
+width: 130px;
+margin-top: -50px;
+margin-left: 50px;
+display: block;
+}
+.ul01 li
+{
+list-style: none;
+float: left;
+margin-left: 40px;
+}
+.ul01
+{
+position: absolute;
+left: 380px;
+top:35px;
+}
+.ul01 li:hover
+{
+cursor: pointer;
+}
+.nav-para1
+{
+position: absolute;
+left: 80%;
+top:30px;
+}
+.nav-para1:hover
+{
+cursor: pointer;
+color:#56c4e9;
+transition-duration: 1s;
+}
+#btn1
+{
+height: 50px;
+width: 120px;
+background-color: #56c4e9;
+position: absolute;
+left: 87%;
+top:20px;
+border-radius: 15px;
+}
+#btn1:hover
+{
+background-color: black;
+color: white;
+cursor: pointer;
+transition-duration: 1s;
+border: none;
+}
+/* ................1st................ */
+
+.body1
+{
+
+height: 30vh;
+width: 100%;
+border: 1px solid white;
+position: relative;
+}
+.body1-para1
+{
+
+text-align: center;
+margin-top: 50px;
+}
+.body1-para2
+{
+
+text-align: center;
+margin-top: 20px;
+}
+
+/* ..................2nd.............. */
+
+.body2
+{
+
+height: 140vh;
+width: 100%;
+border: 1px solid white;
+position: relative;
+top:10px;
+}
+.body2-head1
+{
+
+text-align: center;
+margin-top: 50px;
+}
+.body2-box1
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+position: relative;
+top:150px;
+float: left;
+left: 100px;
+background-image: url('1.png');
+background-size: 100% 100%;
+}
+.body2-box2
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+position: relative;
+top:150px;
+float: left;
+left: 150px;
+}
+.box2-head1
+{
+font-size: 18px;
+}
+.box2-para1
+{
+position: absolute;
+top:70px;
+font-size: 18px;
+
+}
+.body2-box3
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+position: relative;
+top:150px;
+float: left;
+left: 200px;
+background-image: url('3.png');
+background-size: 100% 100%;
+}
+.body2-box4
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+position: relative;
+top:150px;
+float: left;
+left: 250px;
+}
+.body2-box5
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+top:400px;
+position: relative;
+float: left;
+margin-left: -880px;
+}
+.body2-box6
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+top:400px;
+position: relative;
+float: left;
+margin-left: -585px;
+background-image: url('2.png');
+background-size: 100% 100%;
+}
+.body2-box7
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+top:400px;
+position: relative;
+float: left;
+margin-left: -289px;
+}
+.body2-box8
+{
+
+height: 40vh;
+width: 18%;
+border: 1px solid white;
+top:400px;
+position: relative;
+float: left;
+margin-left: 05px;
+background-image: url('4.png');
+background-size: 100% 100%;
+}
+.line-left1
+{
+    width: 10%;
+height: 320px;
+position: absolute;
+left: 290px;
+top:340px;
+}
+.line-right1
+{
+
+    width: 10%;
+height: 320px;
+position: absolute;
+left: 590px;
+top:340px;
+}
+.line-left2
+{
+    width: 10%;
+height: 320px;
+position: absolute;
+left: 890px;
+top:360px;
+}
+/* ......................3rd.............. */
+
+
+.body3
+{
+position: relative;
+height: 140vh;
+width: 100%;
+border: 1px solid white;
+}
+.body3-box1
+{
+
+height: 60vh;
+width: 30%;
+border: 1px solid white;
+position: absolute;
+top:350px;
+left: 80px;
+float: left;
+
+}
+.body3-head1
+{
+
+line-height: 40px;
+font-size: 30px;
+}
+.body3-para1
+{
+
+    position: absolute;
+    top:100px;
+    line-height: 30px;
+}
+#btn05
+{
+border-radius: 15px;
+height: 50px;
+width: 140px;
+background-color: #56c4e9;
+position: absolute;
+left: 40px;
+top:300px;
+outline: none;
+}
+#btn05:hover
+{
+    background-color: black;
+    color: #56c4e9;
+
+
+}
+.body3-box2
+{
+
+
+    height: 60vh;
+    width: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top:350px;
+    left: 600px;
+    float: left;
+    background-image: url('neoreach-managed-services_Influencer-Marketing-Pioneers-1.png');
+    background-size: 100% 100%;
+}
+
+
+/* ................4th.............. */
+
+.body4
+{
+position: relative;
+height: 100vh;
+width: 100%;
+border: 1px solid white;
+}
+.body4-box1
+{
+
+
+    height: 60vh;
+    width: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top:80px;
+    left: 70px;
+    float: left;
+    background-image: url('neoreach-managed-services_Expansive-influencer-network.png');
+    background-size: 100% 100%;
+}
+.body4-box2
+{
+
+height: 60vh;
+width: 30%;
+border: 1px solid white;
+position: absolute;
+top:80px;
+left: 850px;
+float: left;
+
+}
+.body3-head1
+{
+
+line-height: 40px;
+font-size: 30px;
+}
+.body3-para1
+{
+
+    position: absolute;
+    top:100px;
+    line-height: 30px;
+}
+#btn05
+{
+border-radius: 15px;
+height: 50px;
+width: 140px;
+background-color: #56c4e9;
+position: absolute;
+left: 40px;
+top:300px;
+outline: none;
+}
+#btn05:hover
+{
+    background-color: black;
+    color: #56c4e9;
+
+}
+/* .........................5th...................... */
+
+.body5
+{
+position: relative;
+height: 100vh;
+width: 100%;
+border: 1px solid white;
+}
+.body5-box1
+{
+
+height: 60vh;
+width: 30%;
+border: 1px solid white;
+position: absolute;
+top:100px;
+left: 80px;
+float: left;
+
+}
+.body3-head1
+{
+
+line-height: 40px;
+font-size: 30px;
+}
+.body3-para1
+{
+
+    position: absolute;
+    top:100px;
+    line-height: 30px;
+}
+#btn05
+{
+border-radius: 15px;
+height: 50px;
+width: 140px;
+background-color: #56c4e9;
+position: absolute;
+left: 40px;
+top:300px;
+outline: none;
+}
+#btn05:hover
+{
+    background-color: black;
+    color: #56c4e9;
+}
+.body5-box2
+{
+
+
+    height: 60vh;
+    width: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top:100px;
+    left: 600px;
+    float: left;
+    background-image: url('neoreach-managed-services_Influencer-Marketing-Pioneers-1.png');
+    background-size: 100% 100%;
+}
+/* ...............6th..................... */
+
+.body6
+{
+position: relative;
+height: 100vh;
+width: 100%;
+border: 1px solid white;
+}
+.body6-box1
+{
+
+
+    height: 60vh;
+    width: 50%;
+    border: 1px solid white;
+    position: absolute;
+    top:80px;
+    left: 70px;
+    float: left;
+    background-image: url('neoreach-managed-services_Expansive-influencer-network.png');
+    background-size: 100% 100%;
+}
+.body6-box2
+{
+
+height: 60vh;
+width: 30%;
+border: 1px solid white;
+position: absolute;
+top:80px;
+left: 850px;
+float: left;
+
+}
+.body3-head1
+{
+
+line-height: 40px;
+font-size: 30px;
+}
+.body3-para1
+{
+
+    position: absolute;
+    top:100px;
+    line-height: 30px;
+}
+#btn05
+{
+border-radius: 15px;
+height: 50px;
+width: 140px;
+background-color: #56c4e9;
+position: absolute;
+left: 40px;
+top:300px;
+outline: none;
+}
+#btn05:hover
+{
+    background-color: black;
+    color: #56c4e9;
+
+}
+/* .................fotr...................... */
+
+.body014
+{
+    padding: 1px;
+width: 100%;
+height: 700px;
+background-color: #E7FEF8;
+position: relative;
+top:-50px;
+left:0px;
+}
+.body14-para1
+{
+
+
+position: absolute;
+margin-left: 380px;
+top:100px;
+}
+.body14-para2
+{
+
+
+position: absolute;
+
+left: 380px;
+top:150px;
+}
+.input1
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:300px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input2
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:300px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input3
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:380px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input4
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:380px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input5
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:460px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input6
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:460px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input7
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:540px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input8
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:540px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+#btn11
+{
+
+height: 50px;
+width: 180px;
+background-color:#8ce2f2 ;
+border-radius: 15px;
+position: absolute;
+border: none;
+outline: none;
+left: 470px;
+top:650px;
+box-shadow: 2px 2px 3px 2px red;
+}
+#btn11:hover
+{
+
+background-color: black;
+color: #8ce2f2;
+}
+.body15 
+{
+
+padding: 150px;;
+height: 700px;
+width: 100%;
+border: 1px solid white;
+position: relative;
+top:150%;
+left:20px;
+}
+.small-box-1
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 520px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-2
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 600px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-3
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 680px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-4
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 780px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px white;
+}
+.small1-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+}
+.smal2-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:10px;
+}
+.smal3-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:20px;
+}
+.smal4-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:30px;
+}
+.smal5-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:40px;
+}
+.ul0011 li 
+{
+
+list-style: none;
+margin-top: 10px;
+}
+.ul0011 li:hover
+{
+
+color: blue;
+font-weight: bolder;
+cursor: ns-resize;
+}

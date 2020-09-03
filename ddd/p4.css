@@ -1,0 +1,745 @@
+*
+{
+margin: 0;
+padding: 0;
+/* overflow: hidden; */
+}
+
+nav
+{
+height: 100px;
+width: 100%;
+border: 1px solid white;
+position: relative;
+}
+nav img
+{
+height:200px;
+width: 130px;
+margin-top: -50px;
+margin-left: 50px;
+display: block;
+}
+.ul01 li
+{
+list-style: none;
+float: left;
+margin-left: 40px;
+}
+.ul01
+{
+position: absolute;
+left: 380px;
+top:35px;
+}
+.ul01 li:hover
+{
+cursor: pointer;
+}
+.nav-para1
+{
+position: absolute;
+left: 80%;
+top:30px;
+}
+.nav-para1:hover
+{
+cursor: pointer;
+color:#56c4e9;
+transition-duration: 1s;
+}
+#btn1
+{
+height: 50px;
+width: 120px;
+background-color: #56c4e9;
+position: absolute;
+left: 87%;
+top:20px;
+border-radius: 15px;
+}
+#btn1:hover
+{
+background-color: black;
+color: white;
+cursor: pointer;
+transition-duration: 1s;
+border: none;
+}
+/* ................1st................ */
+
+.body1
+{
+
+height: 30vh;
+width: 100%;
+border: 1px solid white;
+position: relative;
+top:100px;
+}
+.body1-para1
+{
+
+text-align: center;
+margin-top: 50px;
+}
+.body1-para2
+{
+
+text-align: center;
+margin-top: 20px;
+}
+
+/* ..................9th.............. */
+
+.body09
+{
+
+
+height: 320px;
+width: 100%;
+border: 1px solid white;
+position: relative;
+top:250px;
+overflow: hidden;
+}
+.body7-package
+{
+
+height: 250px;
+width: 250px;
+position: absolute;
+top:50px;
+left: 240px;
+}
+.body9-sm
+{
+
+    height: 120px;
+    width:120px;
+    position: absolute;
+    top:10px;
+    left: 450px;
+    z-index: -1;
+}
+.body9-pht1
+{
+
+    height: 250px;
+    width: 230px;
+    position: absolute;
+    top:50px;
+    left: 640px;
+}
+.sm2
+{
+height: 120px;
+width:120px;
+position: absolute;
+top:100px;
+left: 900px;
+}
+.sm3
+{
+height: 120px;
+width:120px;
+position: absolute;
+top:110px;
+left: 990px;
+}
+.sm4
+{
+height: 220px;
+width:220px;
+position: absolute;
+top:40px;
+left: 1130px;
+}
+.mixd01
+{
+
+z-index: -1;
+height: 130px;
+width: 130px;
+position: absolute;
+left: 140px;
+}
+.paper
+{
+height: 80px;
+width: 100px;
+position: absolute;
+left: 75%;
+top:220px;
+}
+.top1
+{
+
+height: 300px;
+width: 500px;
+position: absolute;
+left: 540px;
+}
+
+.horn1
+{
+height: 100px;
+position: absolute;
+left: 300px;
+top:220px;
+}
+/* ........................3rd............... */
+
+.body03
+{
+height: 100px;
+width: 100%;
+position: relative;
+top:400px;
+border: 1px solid white;
+}
+.amazong-logo1
+{
+height: 60px;
+width: 150px;
+position: absolute;
+top:20px;
+right: 10%;
+animation: amazon;
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+animation-duration: 13s;
+
+}
+@keyframes amazon 
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+.airbnb-log1
+
+{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top:20px;
+    right: -100%;
+    animation: amazon;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-delay: 2s;
+    }
+    @keyframes amazon
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+.bet-logo1
+{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top:20px;
+    right: -100%;
+    animation: amazon;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-delay: 4s;
+    }
+    @keyframes amazon
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+.blk-logo1
+{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top:20px;
+    right: -100%;
+    animation: amazon;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-delay: 6s;
+    }
+    @keyframes amazon
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+.blkk-logo1
+{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top:20px;
+    right: -100%;
+    animation: amazon;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-delay: 8s;
+    }
+    @keyframes amazon
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+.walmart-logo1
+{
+    height: 60px;
+    width: 150px;
+    position: absolute;
+    top:20px;
+    right: -100%;
+    animation: amazon;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-duration: 13s;
+    animation-delay: 10.50s;
+    }
+    @keyframes amazon
+{
+
+    0%{right: 0;}
+    100%{right: 100%;}
+}
+
+
+/* ..............4th............... */
+
+/* ....................13.................. */
+
+.body13
+{
+
+height: 800px;
+width: 85%;
+border: 1px solid gray;
+position: relative;
+top:453px;
+left: 100px;
+}
+.body13-box1
+{
+position: relative;
+top:5px;
+height: 780px;
+width: 350px;
+border: 1px solid gray;
+border-radius: 10px;
+float: left;
+}
+.body13-box2
+{
+    left: 40px;
+position: relative;
+top:5px;
+height: 780px;
+width: 350px;
+border: 1px solid gray;
+border-radius: 10px;
+float: left;
+}
+.body13-box3
+{
+    left: 80px;
+position: relative;
+top:5px;
+height: 780px;
+width: 350px;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+}
+.small-box1
+{
+position: absolute;
+top:350px;
+height: 200px;
+width: 175px;
+border: 1px solid gray;
+float: left;
+}
+.small-box2
+{
+position: absolute;
+top:350px;
+left: 175px;
+height: 200px;
+width: 175px;
+border: 1px solid gray;
+float: left;
+}
+.small-box3
+{
+
+float: left;
+height: 80px;
+width: 175px;
+border: 1px solid gray;
+position: relative;
+top:266px;
+}
+.small-box4
+{
+left: 175px;
+float: left;
+height: 80px;
+width: 175px;
+border: 1px solid gray;
+position: relative;
+top:184px;
+}
+#btn09
+{
+
+height: 50px;
+width: 140px;
+border-radius: 15px;
+background-color: #8ce2f2;
+position: absolute;
+top:88%;
+left: 110px;
+}
+#btn09:hover
+{
+
+
+background-color: black;
+color: #8ce2f2;
+cursor: pointer;
+outline: none;
+}
+
+
+.body9
+{
+
+height: 80vh;
+width: 90%;
+background-color: #EED8DB;
+position: absolute;
+top:110%;
+left: 60px;  
+}
+.footr1
+{
+
+height: 150px;
+width: 150px;
+position: absolute;
+left: 40%;
+top:60px;
+}
+/* ...............fotr................ */
+
+.body014
+{
+    padding: 1px;
+width: 100%;
+height: 700px;
+background-color: #E7FEF8;
+position: relative;
+top:1550px;
+left:0px;
+}
+.body14-para1
+{
+
+
+position: absolute;
+margin-left: 380px;
+top:100px;
+}
+.body14-para2
+{
+
+
+position: absolute;
+
+left: 380px;
+top:150px;
+}
+.input1
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:300px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input2
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:300px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input3
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:380px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input4
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:380px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input5
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:460px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input6
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:460px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input7
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 195px;
+top:540px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+.input8
+{
+
+
+position: absolute;
+height: 40px;
+width: 350px;
+border-radius: 10px;
+border: none;
+border: 1px solid black;
+outline: none;
+left: 600px;
+top:540px;
+box-shadow: 2px 2px 3px 2px darkcyan;
+
+}
+#btn11
+{
+
+height: 50px;
+width: 180px;
+background-color:#8ce2f2 ;
+border-radius: 15px;
+position: absolute;
+border: none;
+outline: none;
+left: 470px;
+top:650px;
+box-shadow: 2px 2px 3px 2px red;
+}
+#btn11:hover
+{
+
+background-color: black;
+color: #8ce2f2;
+}
+.body15 
+{
+
+
+height: 700px;
+width: 100%;
+border: 1px solid white;
+position: relative;
+top:1555px;
+left: 20px;
+}
+.small-box-1
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 400px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-2
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 480px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-3
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 560px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px black;
+}
+.small-box-4
+{
+
+height: 60px;
+width: 60px;
+position: absolute;
+border: 1px solid white;
+border-radius: 10px;
+float: left;
+left: 640px;
+margin-top: -10px;
+box-shadow: 2px 2px 3px 2px white;
+}
+.small1-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+}
+.smal2-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:10px;
+}
+.smal3-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:20px;
+}
+.smal4-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:30px;
+}
+.smal5-box
+{
+height: 340px;
+width: 210px;
+border: 1px solid white;
+float: left;
+position: relative;
+top:130px;
+left:40px;
+}
+.ul0011 li 
+{
+
+list-style: none;
+margin-top: 10px;
+}
+.ul0011 li:hover
+{
+
+color: blue;
+font-weight: bolder;
+cursor: ns-resize;
+}
